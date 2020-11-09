@@ -26,7 +26,7 @@ def get_args():
 
     # Miscellaneous.
     parser.add_argument('--num_workers', type=int, default=1)
-    parser.add_argument('--mode', type=str, default='test', choices=['train', 'test'])
+    parser.add_argument('--mode', type=str, default='train', choices=['train', 'test'])
 
     # Directories.
     parser.add_argument('--img_path', type=str, default='../../celeba/img_align_celeba/')
